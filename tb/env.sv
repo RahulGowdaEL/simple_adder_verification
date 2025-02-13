@@ -1,3 +1,7 @@
+//ENV
+`include "normal_add_agent.sv";
+`include "normal_add_score.sv";
+
 class normal_add_env extends uvm_env;
 `uvm_component_utils(normal_add_env)
 
